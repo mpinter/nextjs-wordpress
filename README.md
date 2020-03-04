@@ -41,3 +41,13 @@ Then you can start/stop with
 docker start wordpress-custom
 docker stop wordpress-custom
 ```
+
+## First time setup next.js with eslint/typescript/prettier
+
+Follow this https://nextjs.org/learn/excel/typescript/setup
+
+Add eslint and prettier dependencies
+
+```
+yarn add eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-prettier eslint-config-prettier --dev
+```
